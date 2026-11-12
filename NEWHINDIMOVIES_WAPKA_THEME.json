@@ -1,0 +1,385 @@
+{
+    "information": {
+        "name": "wapka themes",
+        "description": "Wapka.org free website builder themes",
+        "version": 1,
+        "time": 1794464573,
+        "url": "https://wapka.org"
+    },
+    "pages": {
+        "index": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | Latest Movies &amp; Web Series</title>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<div class=\"mb-trending-wrap\"><div class=\"mb-trending-box\"><div class=\"mb-trending-head\"><b>🔥 TRENDING • MOST VIEWED</b><span>TOP 5</span></div><div class=\"mb-trending-strip\" data-mb-trending=\"1\">",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<a class=\"mb-trending-card\" href=\"/download/%name%?id=%id%\"><span class=\"mb-trending-rank\">TOP</span><img src=\"%thumb%\" alt=\"%name%\" loading=\"lazy\" onerror=\"this.style.display='none'\"><span class=\"mb-trending-card-title\">%name%</span></a>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<search></search>\r\n<limit>5</limit>\r\n<order>views</order>",
+                    "footer": "</div></div></div><script>(function(){function initTrending(){var s=document.querySelector(\"[data-mb-trending=\\\"1\\\"]\");if(!s||s.getAttribute(\"data-mb-ready\")===\"1\")return;var cards=s.querySelectorAll(\".mb-trending-card\");if(!cards.length)return;s.setAttribute(\"data-mb-ready\",\"1\");var index=0;window.setInterval(function(){if(!document.body.contains(s)||cards.length<2)return;index=(index+1)%cards.length;var card=cards[index];if(card&&typeof s.scrollTo===\"function\"){s.scrollTo({left:card.offsetLeft,behavior:\"smooth\"});}},6000);}if(document.readyState===\"loading\"){document.addEventListener(\"DOMContentLoaded\",initTrending);}else{initTrending();}})();</script>"
+                },
+                {
+                    "content": "<div class=\"mb-wrap\"><div class=\"mb-section-title\">Featured Movies</div><div class=\"mb-feature-strip\">",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<a class=\"mb-feature-item\" href=\"/download/%name%?id=%id%\"><div class=\"mb-feature-poster\"><img src=\"%thumb%\" alt=\"%name%\" loading=\"lazy\" onerror=\"this.style.display='none'\"><span class=\"mb-feature-quality\">{{VAR(q)}}</span></div><span class=\"mb-feature-title\">%name%</span></a>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<search></search>\r\n<limit>2</limit>\r\n<order>new</order>",
+                    "footer": "</div></div>"
+                },
+                {
+                    "content": "</div><div class=\"mb-search\"><form method=\"get\" action=\"/search\"><input type=\"search\" name=\"id\" placeholder=\"Search movies, series...\" maxlength=\"80\"><input type=\"submit\" value=\"Search\"></form></div><div class=\"mb-notice\"><span class=\"tag\">OFFICIAL:</span> Welcome to <strong>NEWHINDIMOVIES</strong>. Browse high-quality verified catalogue links.<div class=\"mb-warning\">Always check the URL to ensure you are on the official NEWHINDIMOVIES portal.</div></div><div class=\"mb-section-title\">Latest Releases</div><div class=\"mb-grid\">",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<a class=\"mb-card\" href=\"/download/%name%?id=%id%\"><div class=\"mb-poster\"><img src=\"%thumb%\" alt=\"%name%\" onerror=\"this.style.display='none'\"><span class=\"mb-quality\">HD</span></div><div class=\"mb-card-body\"><span class=\"mb-card-title\">%name%</span></div></a>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<search></search>\r\n<limit>20</limit>\r\n<order>new</order>\r\n<page>{{GET(page)}}</page>\r\n<url>{{VAR(URL_PATH)}}?page=",
+                    "footer": "</div><div class=\"mb-pager\">{{PAGING(%prev% %num% %next% )}}</div></div>"
+                },
+                {
+                    "content": "<div class=\"mb-section-title\">Browse Categories</div><div class=\"mb-folder-list\">",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<div class=\"mb-folder-list\"><a class=\"mb-folder\" href=\"/category/%name%?id=%id%&id2=new\"><span>%name%</span> <small>[%filenum%]</small></a>",
+                    "type": 21,
+                    "user": 0,
+                    "typeText": "Folder Lister",
+                    "userText": "All user",
+                    "config": "<dir>0</dir>\r\n<limit>27</limit>\r\n<order>old</order>",
+                    "footer": "</div></div>"
+                }
+            ]
+        },
+        "header": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<meta name=\"description\" content=\"NEWHINDIMOVIES - Latest Movies, Web Series and HD Downloads\" /><meta name=\"theme-color\" content=\"#1677FF\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"mobile-web-app-capable\" content=\"yes\"><meta name=\"apple-mobile-web-app-capable\" content=\"yes\">",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes\">\n<meta name=\"theme-color\" content=\"#1677FF\">\n<style id=\"newhindimovies-master-css\">\n:root {\n  --c-white: #FFFFFF;\n  --c-blue: #1677FF;\n  --c-blue-dark: #075DCC;\n  --c-blue-soft: #EAF3FF;\n  --c-text: #172033;\n  --c-text-muted: #53647F;\n  --c-border: #DBE9F8;\n  --radius: 8px;\n}\n* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }\nhtml, body {\n  background: var(--c-white) !important;\n  color: var(--c-text) !important;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif !important;\n  font-size: 14px;\n  line-height: 1.45;\n  overflow-x: hidden;\n}\na { color: inherit; text-decoration: none; }\nimg { max-width: 100%; height: auto; display: block; }\n\n.mb-wrap {\n  width: 100% !important;\n  max-width: 1100px !important;\n  margin: 0 auto !important;\n  padding: 0 12px !important;\n}\n\n/* Header */\n.mb-brand {\n  position: sticky !important;\n  top: 0 !important;\n  z-index: 1000 !important;\n  background: var(--c-white) !important;\n  border-bottom: 2px solid var(--c-blue) !important;\n  box-shadow: 0 2px 10px rgba(22, 119, 255, 0.08) !important;\n}\n.mb-brand .mb-wrap {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  height: 58px !important;\n}\n.mb-menu-btn {\n  width: 40px !important;\n  height: 40px !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  background: var(--c-blue-soft) !important;\n  display: flex !important;\n  flex-direction: column !important;\n  justify-content: center !important;\n  align-items: center !important;\n  gap: 5px !important;\n  cursor: pointer !important;\n}\n.mb-menu-btn i {\n  display: block !important;\n  height: 2px !important;\n  width: 20px !important;\n  background: var(--c-blue) !important;\n  border-radius: 2px !important;\n}\n.mb-logo {\n  text-align: center !important;\n  color: var(--c-blue) !important;\n  font-weight: 900 !important;\n  font-size: 20px !important;\n  line-height: 1.1 !important;\n  letter-spacing: -0.5px !important;\n}\n.mb-logo small {\n  display: block !important;\n  color: var(--c-text-muted) !important;\n  font-size: 9px !important;\n  font-weight: 700 !important;\n  letter-spacing: 1px !important;\n  margin-top: 2px !important;\n}\n.mb-head-search a {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  width: 40px !important;\n  height: 40px !important;\n  color: var(--c-blue) !important;\n  font-size: 22px !important;\n  font-weight: 900 !important;\n  border-radius: var(--radius) !important;\n  background: var(--c-blue-soft) !important;\n}\n\n/* Search bar */\n.mb-search {\n  background: var(--c-white) !important;\n  border-bottom: 1px solid var(--c-border) !important;\n  padding: 10px 0 !important;\n}\n.mb-search form {\n  display: flex !important;\n  gap: 8px !important;\n  width: 100% !important;\n}\n.mb-search input[type=\"search\"] {\n  flex: 1 !important;\n  height: 44px !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  padding: 0 14px !important;\n  font-size: 14px !important;\n  color: var(--c-text) !important;\n  background: var(--c-white) !important;\n  outline: none !important;\n}\n.mb-search input[type=\"search\"]:focus {\n  border-color: var(--c-blue) !important;\n  box-shadow: 0 0 0 2px var(--c-blue-soft) !important;\n}\n.mb-search input[type=\"submit\"] {\n  display: block !important;\n  height: 44px !important;\n  padding: 0 18px !important;\n  background: var(--c-blue) !important;\n  color: var(--c-white) !important;\n  border: none !important;\n  border-radius: var(--radius) !important;\n  font-weight: 700 !important;\n  cursor: pointer !important;\n}\n\n/* Telegram CTA */\n.mb-telegram-banner-wrap {\n  background: var(--c-white) !important;\n  border-bottom: 1px solid var(--c-border) !important;\n  padding: 10px 12px !important;\n}\n.mb-telegram-banner {\n  background: var(--c-blue-soft) !important;\n  border: 1px solid var(--c-border) !important;\n  border-left: 4px solid var(--c-blue) !important;\n  border-radius: var(--radius) !important;\n  padding: 10px 14px !important;\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  gap: 10px !important;\n  color: var(--c-blue-dark) !important;\n  font-weight: 800 !important;\n  font-size: 14px !important;\n}\n.mb-telegram-icon {\n  width: 22px !important;\n  height: 22px !important;\n  flex: 0 0 22px !important;\n}\n.mb-telegram-btn-txt {\n  background: var(--c-blue) !important;\n  color: var(--c-white) !important;\n  padding: 6px 12px !important;\n  border-radius: 6px !important;\n  font-size: 12px !important;\n  font-weight: 700 !important;\n}\n\n/* Notice & Breadcrumb */\n.mb-notice {\n  background: var(--c-blue-soft) !important;\n  border: 1px solid var(--c-border) !important;\n  border-left: 4px solid var(--c-blue) !important;\n  border-radius: var(--radius) !important;\n  padding: 10px 14px !important;\n  margin: 12px auto !important;\n  color: var(--c-text) !important;\n  font-size: 13px !important;\n}\n.mb-notice .tag {\n  background: var(--c-blue) !important;\n  color: var(--c-white) !important;\n  padding: 3px 6px !important;\n  border-radius: 4px !important;\n  font-size: 11px !important;\n  font-weight: 800 !important;\n  margin-right: 6px !important;\n}\n.mb-warning {\n  margin-top: 8px !important;\n  font-size: 12px !important;\n  color: var(--c-text-muted) !important;\n}\n.mb-breadcrumb {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  gap: 6px !important;\n  align-items: center !important;\n  padding: 8px 12px !important;\n  background: var(--c-blue-soft) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  font-size: 12px !important;\n  font-weight: 600 !important;\n  margin: 12px 0 !important;\n  color: var(--c-text-muted) !important;\n}\n.mb-breadcrumb a { color: var(--c-blue) !important; }\n.mb-breadcrumb b { color: var(--c-text) !important; }\n\n/* Section Title */\n.mb-section-title {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  padding: 9px 12px !important;\n  background: var(--c-blue) !important;\n  color: var(--c-white) !important;\n  font-size: 14px !important;\n  font-weight: 800 !important;\n  border-radius: var(--radius) !important;\n  margin: 16px 0 12px !important;\n  text-transform: uppercase !important;\n  letter-spacing: 0.5px !important;\n}\n.mb-section-title * { color: var(--c-white) !important; }\n\n/* Feature Strip */\n.mb-feature-strip {\n  display: grid !important;\n  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;\n  gap: 10px !important;\n  margin: 14px 0 !important;\n}\n@media (min-width: 768px) {\n  .mb-feature-strip { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }\n}\n.mb-feature-item {\n  display: flex !important;\n  flex-direction: column !important;\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  overflow: hidden !important;\n}\n.mb-feature-item img {\n  width: 100% !important;\n  aspect-ratio: 2 / 3 !important;\n  object-fit: cover !important;\n}\n.mb-feature-title {\n  padding: 7px 8px !important;\n  font-size: 12px !important;\n  font-weight: 700 !important;\n  color: var(--c-text) !important;\n  white-space: normal !important;\n  line-height: 1.3 !important;\n}\n\n/* Movie Card Grid: 2 columns mobile, 4 columns desktop */\n.mb-grid {\n  display: grid !important;\n  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;\n  gap: 10px !important;\n  width: 100% !important;\n}\n@media (min-width: 768px) {\n  .mb-grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; gap: 14px !important; }\n}\n.mb-card {\n  display: flex !important;\n  flex-direction: column !important;\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  overflow: hidden !important;\n  box-shadow: 0 1px 4px rgba(22, 119, 255, 0.05) !important;\n  transition: transform 0.15s, border-color 0.15s !important;\n}\n.mb-card:hover {\n  border-color: var(--c-blue) !important;\n  transform: translateY(-2px) !important;\n}\n.mb-poster {\n  position: relative !important;\n  width: 100% !important;\n  aspect-ratio: 2 / 3 !important;\n  overflow: hidden !important;\n  background: var(--c-blue-soft) !important;\n}\n.mb-poster img {\n  width: 100% !important;\n  height: 100% !important;\n  object-fit: cover !important;\n}\n.mb-quality {\n  position: absolute !important;\n  top: 6px !important;\n  left: 6px !important;\n  background: var(--c-blue) !important;\n  color: var(--c-white) !important;\n  font-size: 10px !important;\n  font-weight: 800 !important;\n  padding: 2px 6px !important;\n  border-radius: 4px !important;\n}\n.mb-card-body {\n  padding: 8px 10px !important;\n  display: flex !important;\n  flex-direction: column !important;\n  flex-grow: 1 !important;\n}\n.mb-card-title {\n  font-size: 12px !important;\n  font-weight: 700 !important;\n  color: var(--c-text) !important;\n  line-height: 1.35 !important;\n  display: -webkit-box !important;\n  -webkit-line-clamp: 2 !important;\n  -webkit-box-orient: vertical !important;\n  overflow: hidden !important;\n}\n.mb-card-meta {\n  font-size: 11px !important;\n  color: var(--c-text-muted) !important;\n  margin-top: 4px !important;\n}\n\n/* Category Folders */\n.mb-folder-list {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 7px !important;\n}\n.mb-folder {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  padding: 10px 14px !important;\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-left: 4px solid var(--c-blue) !important;\n  border-radius: var(--radius) !important;\n  font-weight: 700 !important;\n  color: var(--c-text) !important;\n}\n.mb-folder:hover, .mb-folder:active {\n  background: var(--c-blue-soft) !important;\n  border-color: var(--c-blue) !important;\n}\n.mb-folder small {\n  background: var(--c-blue-soft) !important;\n  color: var(--c-blue) !important;\n  font-size: 11px !important;\n  padding: 3px 8px !important;\n  border-radius: 20px !important;\n}\n\n/* Pagination */\n.mb-pager {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  align-items: center !important;\n  justify-content: center !important;\n  gap: 6px !important;\n  margin: 20px 0 !important;\n}\n.mb-pager a, .mb-pager span, .mb-pager b {\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  min-width: 36px !important;\n  height: 36px !important;\n  padding: 0 10px !important;\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  font-size: 12px !important;\n  font-weight: 700 !important;\n  color: var(--c-text) !important;\n}\n.mb-pager a:hover {\n  background: var(--c-blue-soft) !important;\n  border-color: var(--c-blue) !important;\n  color: var(--c-blue) !important;\n}\n.mb-pager a:first-child, .mb-pager b, .mb-pager .active {\n  background: var(--c-blue) !important;\n  border-color: var(--c-blue) !important;\n  color: var(--c-white) !important;\n}\n\n/* Download Page */\n.mb-download-page { padding: 8px 0 24px !important; }\n.mb-movie-card {\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  padding: 14px !important;\n}\n.mb-movie-hero {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 14px !important;\n  margin-bottom: 16px !important;\n}\n@media (min-width: 650px) {\n  .mb-movie-hero { flex-direction: row !important; align-items: flex-start !important; }\n}\n.mb-poster-wrap {\n  width: 100% !important;\n  max-width: 240px !important;\n  margin: 0 auto !important;\n  aspect-ratio: 2 / 3 !important;\n  border-radius: var(--radius) !important;\n  overflow: hidden !important;\n  border: 1px solid var(--c-border) !important;\n  background: var(--c-blue-soft) !important;\n  position: relative !important;\n}\n.mb-movie-poster {\n  width: 100% !important;\n  height: 100% !important;\n  object-fit: cover !important;\n}\n.mb-poster-badge {\n  position: absolute !important;\n  top: 8px !important;\n  left: 8px !important;\n  background: var(--c-blue) !important;\n  color: var(--c-white) !important;\n  font-size: 9px !important;\n  font-weight: 800 !important;\n  padding: 3px 6px !important;\n  border-radius: 4px !important;\n}\n.mb-movie-info { flex: 1 !important; }\n.mb-kicker {\n  font-size: 11px !important;\n  font-weight: 800 !important;\n  color: var(--c-blue) !important;\n  letter-spacing: 1px !important;\n  margin-bottom: 4px !important;\n}\n.mb-movie-info h1 {\n  font-size: 18px !important;\n  font-weight: 800 !important;\n  color: var(--c-text) !important;\n  line-height: 1.3 !important;\n  margin-bottom: 10px !important;\n}\n.mb-meta-line {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  gap: 12px !important;\n  font-size: 13px !important;\n  color: var(--c-text-muted) !important;\n  margin-bottom: 10px !important;\n}\n.mb-meta-line b { color: var(--c-text) !important; }\n.mb-feature-row {\n  display: flex !important;\n  gap: 6px !important;\n  margin-bottom: 10px !important;\n}\n.mb-chip {\n  background: var(--c-blue-soft) !important;\n  color: var(--c-blue-dark) !important;\n  font-size: 11px !important;\n  font-weight: 700 !important;\n  padding: 3px 8px !important;\n  border-radius: 4px !important;\n}\n.mb-intro {\n  font-size: 13px !important;\n  color: var(--c-text-muted) !important;\n  line-height: 1.5 !important;\n}\n\n/* Quality download list */\n.mb-quality-list {\n  display: flex !important;\n  flex-direction: column !important;\n  gap: 10px !important;\n  margin: 14px 0 !important;\n}\n.mb-quality-row {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  padding: 13px 16px !important;\n  background: var(--c-blue) !important;\n  color: var(--c-white) !important;\n  border-radius: var(--radius) !important;\n  box-shadow: 0 2px 6px rgba(22, 119, 255, 0.25) !important;\n}\n.mb-quality-row:hover, .mb-quality-row:active {\n  background: var(--c-blue-dark) !important;\n}\n.mb-quality-row b { font-size: 14px !important; font-weight: 800 !important; }\n.mb-quality-row small { display: block !important; font-size: 11px !important; opacity: 0.85 !important; }\n.mb-quality-row strong { font-size: 13px !important; font-weight: 800 !important; }\n\n.mb-terabox-note {\n  background: var(--c-blue-soft) !important;\n  border: 1px dashed var(--c-blue) !important;\n  color: var(--c-blue-dark) !important;\n  padding: 10px 14px !important;\n  border-radius: var(--radius) !important;\n  text-align: center !important;\n  font-size: 12px !important;\n  font-weight: 700 !important;\n  margin: 12px 0 16px !important;\n}\n.mb-media-card {\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  padding: 8px !important;\n  overflow: hidden !important;\n}\n.mb-description {\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  padding: 14px !important;\n  font-size: 13px !important;\n  line-height: 1.6 !important;\n  color: var(--c-text) !important;\n}\n.mb-download-help {\n  margin-top: 18px !important;\n  padding-top: 14px !important;\n  border-top: 1px solid var(--c-border) !important;\n}\n.mb-download-actions {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  gap: 8px !important;\n  margin-top: 10px !important;\n}\n.mb-download-actions a, .mb-download-cta {\n  display: inline-flex !important;\n  align-items: center !important;\n  justify-content: center !important;\n  padding: 9px 14px !important;\n  background: var(--c-blue) !important;\n  color: var(--c-white) !important;\n  border-radius: var(--radius) !important;\n  font-size: 12px !important;\n  font-weight: 700 !important;\n}\n\n/* Drawer / Browser Menu */\n.mb-browser-menu {\n  display: none;\n  position: fixed;\n  inset: 0;\n  z-index: 99999;\n}\n.mb-browser-menu.is-open { display: block; }\n.mb-browser-backdrop {\n  position: absolute;\n  inset: 0;\n  background: rgba(7, 93, 204, 0.35);\n  backdrop-filter: blur(2px);\n}\n.mb-browser-panel {\n  position: absolute;\n  left: 0;\n  top: 0;\n  width: min(300px, 86vw);\n  height: 100%;\n  background: var(--c-white);\n  border-right: 2px solid var(--c-border);\n  box-shadow: 10px 0 30px rgba(0,0,0,0.1);\n  overflow-y: auto;\n  -webkit-overflow-scrolling: touch;\n  display: flex;\n  flex-direction: column;\n}\n.mb-browser-head {\n  padding: 16px;\n  background: var(--c-blue-soft);\n  border-bottom: 1px solid var(--c-border);\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n.mb-browser-head b { font-size: 16px; color: var(--c-blue); font-weight: 900; }\n.mb-browser-head small { font-size: 9px; color: var(--c-text-muted); display: block; }\n.mb-browser-head button {\n  width: 32px;\n  height: 32px;\n  border: 1px solid var(--c-border);\n  border-radius: var(--radius);\n  background: var(--c-white);\n  color: var(--c-blue);\n  font-size: 20px;\n  cursor: pointer;\n}\n.mb-browser-label {\n  padding: 10px 14px;\n  background: var(--c-blue);\n  color: var(--c-white);\n  font-weight: 800;\n  font-size: 12px;\n  text-transform: uppercase;\n}\n.mb-browser-list { padding: 8px 10px; display: flex; flex-direction: column; gap: 6px; }\n.mb-browser-folder {\n  display: flex !important;\n  align-items: center !important;\n  justify-content: space-between !important;\n  padding: 10px 12px !important;\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  font-size: 13px !important;\n  font-weight: 700 !important;\n  color: var(--c-text) !important;\n}\n.mb-browser-extra {\n  padding: 10px;\n  border-top: 1px solid var(--c-border);\n  display: flex;\n  flex-direction: column;\n  gap: 6px;\n}\n.mb-browser-extra a {\n  padding: 9px 12px;\n  background: var(--c-blue-soft);\n  border-radius: var(--radius);\n  color: var(--c-blue-dark) !important;\n  font-size: 12px;\n  font-weight: 700;\n}\n\n/* Legal Pages */\n.mb-legal-page { padding: 14px 0 30px !important; }\n.mb-legal-card {\n  background: var(--c-white) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: var(--radius) !important;\n  padding: 16px !important;\n  line-height: 1.65 !important;\n  font-size: 13px !important;\n}\n.mb-legal-card h1, .mb-legal-card h2 {\n  color: var(--c-blue) !important;\n  font-size: 16px !important;\n  margin: 14px 0 6px !important;\n}\n.mb-legal-card p, .mb-legal-card li {\n  margin-bottom: 10px !important;\n  color: var(--c-text) !important;\n}\n\n/* Footer */\n.mb-footer {\n  background: var(--c-white) !important;\n  border-top: 2px solid var(--c-border) !important;\n  padding: 24px 0 !important;\n  margin-top: 30px !important;\n  text-align: center !important;\n}\n.mb-footer-copy {\n  font-size: 14px !important;\n  font-weight: 700 !important;\n  color: var(--c-text) !important;\n  margin-bottom: 14px !important;\n}\n.mb-footer-copy b { color: var(--c-blue) !important; }\n.mb-footer-tags {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  justify-content: center !important;\n  gap: 8px 14px !important;\n  margin-bottom: 18px !important;\n}\n.mb-footer-tags a {\n  color: var(--c-blue) !important;\n  font-size: 12px !important;\n  font-weight: 700 !important;\n}\n.mb-footer-seo {\n  border-top: 1px solid var(--c-border) !important;\n  padding-top: 14px !important;\n  margin-top: 14px !important;\n}\n.mb-footer-seo-title {\n  font-size: 12px !important;\n  font-weight: 800 !important;\n  color: var(--c-text-muted) !important;\n  margin-bottom: 8px !important;\n}\n.mb-footer-tags-cloud {\n  display: flex !important;\n  flex-wrap: wrap !important;\n  justify-content: center !important;\n  gap: 6px !important;\n  margin-bottom: 14px !important;\n}\n.mb-footer-tags-cloud a {\n  padding: 5px 9px !important;\n  background: var(--c-blue-soft) !important;\n  border: 1px solid var(--c-border) !important;\n  border-radius: 4px !important;\n  color: var(--c-blue-dark) !important;\n  font-size: 11px !important;\n  font-weight: 600 !important;\n}\n.mb-footer-disclaimer {\n  font-size: 11px !important;\n  color: var(--c-text-muted) !important;\n  max-width: 750px !important;\n  margin: 0 auto !important;\n  line-height: 1.5 !important;\n}\n\n/* =========================================================\n   TRENDING MOST-VIEWED BANNER — SAFE 16:9 CAROUSEL\n   ========================================================= */\n.mb-trending-wrap{\n  width:100% !important;\n  max-width:1100px !important;\n  margin:10px auto 14px !important;\n  padding:0 12px !important;\n}\n.mb-trending-box{\n  width:100% !important;\n  background:var(--c-blue-soft) !important;\n  border:1px solid var(--c-border) !important;\n  border-left:4px solid var(--c-blue) !important;\n  border-radius:var(--radius) !important;\n  padding:8px !important;\n  overflow:hidden !important;\n}\n.mb-trending-head{\n  display:flex !important;\n  align-items:center !important;\n  justify-content:space-between !important;\n  gap:8px !important;\n  padding:4px 4px 8px !important;\n  color:var(--c-blue-dark) !important;\n  font-weight:900 !important;\n  font-size:13px !important;\n  text-transform:uppercase !important;\n}\n.mb-trending-head span{\n  flex:0 0 auto !important;\n  font-size:10px !important;\n  background:var(--c-blue) !important;\n  color:#fff !important;\n  padding:3px 7px !important;\n  border-radius:12px !important;\n}\n.mb-trending-strip{\n  display:flex !important;\n  gap:10px !important;\n  width:100% !important;\n  overflow-x:auto !important;\n  overflow-y:hidden !important;\n  scroll-snap-type:x mandatory !important;\n  -webkit-overflow-scrolling:touch !important;\n  scrollbar-width:none !important;\n  scroll-behavior:smooth !important;\n}\n.mb-trending-strip::-webkit-scrollbar{\n  display:none !important;\n}\n.mb-trending-card{\n  position:relative !important;\n  flex:0 0 100% !important;\n  width:100% !important;\n  min-width:100% !important;\n  aspect-ratio:16 / 9 !important;\n  background:#fff !important;\n  border:1px solid var(--c-border) !important;\n  border-radius:8px !important;\n  overflow:hidden !important;\n  scroll-snap-align:start !important;\n}\n.mb-trending-card img{\n  display:block !important;\n  width:100% !important;\n  height:100% !important;\n  aspect-ratio:16 / 9 !important;\n  object-fit:cover !important;\n  background:var(--c-blue-soft) !important;\n}\n.mb-trending-card::after{\n  content:\"\" !important;\n  position:absolute !important;\n  left:0 !important;\n  right:0 !important;\n  bottom:0 !important;\n  height:42% !important;\n  background:linear-gradient(transparent,rgba(0,0,0,.78)) !important;\n  pointer-events:none !important;\n}\n.mb-trending-card-title{\n  position:absolute !important;\n  left:10px !important;\n  right:10px !important;\n  bottom:9px !important;\n  z-index:3 !important;\n  display:block !important;\n  color:#fff !important;\n  font-size:14px !important;\n  font-weight:900 !important;\n  line-height:1.25 !important;\n  white-space:nowrap !important;\n  overflow:hidden !important;\n  text-overflow:ellipsis !important;\n  text-shadow:0 1px 3px rgba(0,0,0,.65) !important;\n}\n.mb-trending-rank{\n  position:absolute !important;\n  left:8px !important;\n  top:8px !important;\n  z-index:3 !important;\n  background:var(--c-blue) !important;\n  color:#fff !important;\n  font-size:11px !important;\n  font-weight:900 !important;\n  padding:4px 7px !important;\n  border-radius:5px !important;\n}\n@media (min-width:768px){\n  .mb-trending-wrap{padding:0 12px !important;}\n  .mb-trending-card-title{font-size:16px !important;}\n}\n\n\n/* Featured Movies — safe quality badge */\n.mb-feature-poster{\n  position:relative !important;\n  width:100% !important;\n  aspect-ratio:16 / 9 !important;\n  overflow:hidden !important;\n  background:var(--c-blue-soft) !important;\n}\n.mb-feature-poster img{\n  display:block !important;\n  width:100% !important;\n  height:100% !important;\n  object-fit:cover !important;\n}\n.mb-feature-quality{\n  position:absolute !important;\n  top:6px !important;\n  left:6px !important;\n  z-index:3 !important;\n  display:inline-block !important;\n  background:var(--c-blue) !important;\n  color:#fff !important;\n  padding:3px 7px !important;\n  border-radius:5px !important;\n  font-size:10px !important;\n  font-weight:900 !important;\n  line-height:1.2 !important;\n  max-width:80px !important;\n  overflow:hidden !important;\n  white-space:nowrap !important;\n  text-overflow:ellipsis !important;\n}\n\n</style>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<div class=\"mb-brand\">\n  <div class=\"mb-wrap\">\n    <a class=\"mb-menu-btn\" href=\"#\" onclick=\"return mbToggleMenu(event)\" aria-label=\"Browse Menu\" aria-expanded=\"false\">\n      <i></i><i></i><i></i>\n    </a>\n    <a class=\"mb-logo\" href=\"/\">\n      NEWHINDIMOVIES\n      <small>HD MOVIES • WEB SERIES</small>\n    </a>\n    <div class=\"mb-head-search\">\n      <a href=\"/search\" aria-label=\"Search\">⌕</a>\n    </div>\n  </div>\n</div>\n\n<div class=\"mb-telegram-banner-wrap\">\n  <a class=\"mb-telegram-banner\" href=\"#telegram-channel\" aria-label=\"Join Our Telegram\">\n    <span class=\"mb-telegram-icon\" aria-hidden=\"true\">\n      <svg viewBox=\"0 0 64 64\" role=\"img\" style=\"width:100%;height:100%;fill:#1677FF;\"><circle cx=\"32\" cy=\"32\" r=\"31\" fill=\"#EAF3FF\"/><path fill=\"#1677FF\" d=\"M48.8 16.6 40.9 50c-.6 2.4-2 3-4 1.9l-10.9-8-5.3 5.1c-.6.6-1.1 1.1-2.2 1.1l.8-11.2 20.4-18.4c.9-.8-.2-1.3-1.4-.5L13 35.4 2.2 32c-2.4-.8-2.4-2.4.5-3.4l42.2-16.3c2-.7 3.8.5 3.9 4.3Z\"/></svg>\n    </span>\n    <span>Join Our Telegram Channel</span>\n    <span class=\"mb-telegram-btn-txt\">JOIN NOW ›</span>\n  </a>\n</div>\n\n<div class=\"mb-browser-menu\" id=\"mb-browser-menu\" aria-hidden=\"true\">\n  <div class=\"mb-browser-backdrop\" onclick=\"mbCloseMenu()\"></div>\n  <div class=\"mb-browser-panel\">\n    <div class=\"mb-browser-head\">\n      <div>\n        <b>NEWHINDIMOVIES</b>\n        <small>HD MOVIES • WEB SERIES</small>\n      </div>\n      <button type=\"button\" onclick=\"mbCloseMenu()\" aria-label=\"Close\">×</button>\n    </div>\n    <div class=\"mb-browser-label\">📁 MOVIE CATEGORIES</div>\n    <div class=\"mb-browser-list\">",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<a class=\"mb-browser-folder\" href=\"/category/%name%?id=%id%&id2=new\"><span class=\"folder-icon\">📁</span><span class=\"folder-name\">%name%</span><span class=\"folder-count\">[%filenum%]</span></a>",
+                    "type": 21,
+                    "user": 0,
+                    "typeText": "Folder Lister",
+                    "userText": "All user",
+                    "config": "<dir>0</dir>\r\n<limit>100</limit>\r\n<order>old</order>"
+                },
+                {
+                    "content": "</div>\n    <div class=\"mb-browser-extra\">\n      <a href=\"/search\">🔎 SEARCH MOVIES</a>\n      <a href=\"/how-to-download-html\">⬇ HOW TO DOWNLOAD ?</a>\n      <a href=\"/movie-request-html\">🎬 MOVIE REQUEST PAGE</a>\n      <a href=\"/about-us-html\">ℹ ABOUT US</a>\n      <a href=\"/contact-us-html\">✉ CONTACT US</a>\n      <a href=\"/privacy-policy-html\">🔒 PRIVACY POLICY</a>\n      <a href=\"/disclaimer-html\">⚠ DISCLAIMER</a>\n      <a href=\"/terms-and-conditions-html\">📄 TERMS &amp; CONDITIONS</a>\n    </div>\n  </div>\n</div><script>\nfunction mbOpenMenu(){\n  var m=document.getElementById('mb-browser-menu');\n  if(!m)return false;\n  m.classList.add('is-open');\n  m.setAttribute('aria-hidden','false');\n  document.body.style.overflow='hidden';\n  var b=document.querySelector('.mb-menu-btn');\n  if(b)b.setAttribute('aria-expanded','true');\n  return false;\n}\nfunction mbCloseMenu(){\n  var m=document.getElementById('mb-browser-menu');\n  if(!m)return false;\n  m.classList.remove('is-open');\n  m.setAttribute('aria-hidden','true');\n  document.body.style.overflow='';\n  var b=document.querySelector('.mb-menu-btn');\n  if(b)b.setAttribute('aria-expanded','false');\n  return false;\n}\nfunction mbToggleMenu(e){\n  if(e)e.preventDefault();\n  var m=document.getElementById('mb-browser-menu');\n  if(m&&m.classList.contains('is-open'))return mbCloseMenu();\n  return mbOpenMenu();\n}\ndocument.addEventListener('keydown',function(e){if(e.key==='Escape')mbCloseMenu()});\n</script>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<style id=\"mb-category-fix\">\n.mb-category-page{width:100%!important;max-width:1100px!important;margin:0 auto!important;padding:0 12px!important;display:block!important;float:none!important;clear:both!important;}\n.mb-category-page .mb-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important;width:100%!important;margin:0!important;padding:0!important;align-items:start!important;float:none!important;clear:both!important;}\n.mb-category-page .mb-grid .mb-card{display:flex!important;flex-direction:column!important;width:100%!important;min-width:0!important;max-width:100%!important;margin:0!important;float:none!important;position:relative!important;overflow:hidden!important;}\n.mb-category-page .mb-grid .mb-poster{width:100%!important;aspect-ratio:2/3!important;height:auto!important;min-height:0!important;}\n.mb-category-page .mb-grid .mb-poster img{width:100%!important;height:100%!important;object-fit:cover!important;}\n.mb-category-page .mb-grid .mb-card-body{width:100%!important;min-width:0!important;}\n.mb-category-page .mb-section-title{grid-column:1/-1!important;width:100%!important;margin:0 0 12px!important;}\n@media(min-width:768px){.mb-category-page .mb-grid{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:14px!important;}}\n@media(max-width:767px){.mb-category-page .mb-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important;}}\n</style>\n<script>\ndocument.addEventListener('DOMContentLoaded',function(){\n var n=document.getElementById('mb-category-name'), t=document.getElementById('mb-category-title');\n if(n&&t){var s=(n.textContent||'').trim();if(s){t.textContent=s.toUpperCase();}}\n});\n</script>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        },
+        "footer": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<div class=\"mb-footer\">\n  <div class=\"mb-wrap\">\n    <div class=\"mb-footer-copy\">\n      <span>2026 ©</span> <b>NEWHINDIMOVIES</b> <span>|</span> All Rights Reserved.\n    </div>\n    <div class=\"mb-footer-tags\">\n      <a href=\"/\">HOME</a>\n      <a href=\"/disclaimer-html\">DISCLAIMER</a>\n      <a href=\"/about-us-html\">ABOUT US</a>\n      <a href=\"/contact-us-html\">CONTACT US</a>\n      <a href=\"/privacy-policy-html\">PRIVACY POLICY</a>\n      <a href=\"/how-to-download-html\">HOW TO DOWNLOAD ?</a>\n      <a href=\"/movie-request-html\">MOVIE REQUEST PAGE</a>\n      <a href=\"/terms-and-conditions-html\">TERMS &amp; CONDITIONS</a>\n    </div>\n    <div class=\"mb-footer-seo\">\n      <div class=\"mb-footer-seo-title\">🏷 POPULAR SEARCHES</div>\n      <div class=\"mb-footer-tags-cloud\">\n        <a href=\"/search?id=NEWHINDIMOVIES\">NEWHINDIMOVIES</a>\n        <a href=\"/search?id=Bollywood%20HD\">Bollywood HD</a>\n        <a href=\"/search?id=South%20Hindi%20Dubbed\">South Hindi Dubbed</a>\n        <a href=\"/search?id=Hollywood%20Hindi\">Hollywood Hindi</a>\n        <a href=\"/search?id=Web%20Series%20Hindi\">Web Series Hindi</a>\n        <a href=\"/search?id=1080p%20Movies\">1080p Movies</a>\n        <a href=\"/search?id=720p%20HD\">720p HD</a>\n      </div>\n      <div class=\"mb-footer-disclaimer\">\n        <b>Disclaimer:</b> NEWHINDIMOVIES shares movie updates and file index catalogue information only. We do not support or distribute copyrighted content directly.\n      </div>\n    </div>\n  </div>\n</div>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        },
+        "search": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | {{GET(id)}}</title><div class=\"mb-wrap\"><div class=\"mb-breadcrumb\"><a href=\"/\">Home</a> &nbsp;»&nbsp; <b>Search: {{GET(id)}}</b></div></div>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<search>{{GET(id)}}</search>\r\n<limit>1</limit>"
+                },
+                {
+                    "content": "<div class=\"mb-wrap\"><div class=\"mb-section-title\">Search Results</div><div class=\"mb-grid\"><a class=\"mb-card\" href=\"/download/%name%?id=%id%\"><div class=\"mb-poster\"><img src=\"%thumb%\" alt=\"%name%\" onerror=\"this.style.display='none'\"><span class=\"mb-quality\">HD</span></div><div class=\"mb-card-body\"><span class=\"mb-card-title\">%name%</span><div class=\"mb-card-meta\">%dirname%</div></div></a>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<search>#%GET(id)%#</search>\r\n<limit>2</limit>\r\n<order>new</order>\r\n<page>#%GET(page)%#</page>\r\n<url>#%VAR(URL_PATH)%#?id=#%GET(id)%#&page=",
+                    "footer": "</div><div class=\"mb-pager\">#%PAGING(%prev% %num% %next% )%#</div></div>"
+                }
+            ]
+        },
+        "category": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | %dirname%</title><div class=\"mb-wrap\"><div class=\"mb-breadcrumb\"><a href=\"/\">Home</a> &nbsp;»&nbsp; <b>%dirname%</b></div><div class=\"mb-section-title\">%dirname%</div></div>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<dir>{{GET(id)}}</dir>\r\n<limit>1</limit>"
+                },
+                {
+                    "content": "<div class=\"mb-wrap\"><div class=\"mb-section-title\">SUB CATEGORIES</div><div class=\"mb-folder-list\"><a class=\"mb-folder\" href=\"/category/%name%?id=%id%&id2=new\"><span>%name%</span> <small>[%filenum%]</small></a>",
+                    "type": 21,
+                    "user": 0,
+                    "typeText": "Folder Lister",
+                    "userText": "All user",
+                    "config": "<dir>{{GET(id)}}</dir>\r\n<limit>50</limit>\r\n<order>old</order>",
+                    "footer": "</div></div>"
+                },
+                {
+                    "content": "<div class=\"mb-wrap\"><div class=\"mb-section-title\">MOVIES</div><div class=\"mb-grid\">",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                },
+                {
+                    "content": "<a class=\"mb-card\" href=\"/download/%name%?id=%id%&id3={{GET(id3)}}\"><div class=\"mb-poster\"><img src=\"%thumb%\" alt=\"%name%\" onerror=\"this.style.display='none'\"><span class=\"mb-quality\">HD</span></div><div class=\"mb-card-body\"><span class=\"mb-card-title\">%name%</span><div class=\"mb-card-meta\">%dirname%</div></div></a>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<dir>{{GET(id)}}</dir>\r\n<limit>20</limit>\r\n<order>{{GET(id2)}}</order>\r\n<page>{{GET(page)}}</page>\r\n<url>{{VAR(URL_PATH)}}?id={{GET(id)}}&id2={{GET(id2)}}&id3={{GET(id3)}}&page=",
+                    "footer": "</div><div class=\"mb-pager\">{{PAGING(%prev% %num% %next% )}}</div></div>"
+                },
+                {
+                    "content": "<div class=\"mb-wrap\"><div class=\"mb-breadcrumb\"><a href=\"/category/%dirname%?id=%dir%&id2=new\">← Back to %dirname%</a></div></div>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<dir>{{GET(id)}}</dir>\r\n<limit>1</limit>"
+                }
+            ]
+        },
+        "download": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | %name%</title>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<id>{{GET(id)}}</id>\r\n<limit>1</limit>"
+                },
+                {
+                    "content": "<div class=\"mb-wrap mb-download-page\">\n  <div class=\"mb-breadcrumb\"><a href=\"/\">HOME</a><span>›</span><a href=\"/category/%dirname%?id=%dir%&id2=new\">%dirname%</a><span>›</span><b>%name%</b></div>\n\n  <article class=\"mb-movie-card\">\n    <div class=\"mb-movie-hero\">\n      <div class=\"mb-poster-wrap\">\n        <div class=\"mb-poster-badge\">NEWHINDIMOVIES</div>\n        <img class=\"mb-movie-poster\" src=\"%thumb%\" alt=\"%name% Poster\" loading=\"eager\" onerror=\"this.style.display='none';\">\n      </div>\n      <div class=\"mb-movie-info\">\n        <div class=\"mb-kicker\">DOWNLOAD CENTER</div>\n        <h1>%name%</h1>\n        <div class=\"mb-meta-line\"><span>Category: <b>%dirname%</b></span><span>File ID: <b>%id%</b></span></div>\n        <div class=\"mb-feature-row\"><span class=\"mb-chip\">✓ DIRECT</span><span class=\"mb-chip\">⚡ FAST SERVER</span><span class=\"mb-chip\">HD QUALITY</span></div>\n        <p class=\"mb-intro\">Choose your preferred resolution below. Direct fast download links are configured through dynamic site variables.</p>\n      </div>\n    </div>\n\n    <div class=\"mb-section\">\n      <div class=\"mb-section-title\"><span>DOWNLOAD LINKS</span></div>\n      <div class=\"mb-quality-list\">\n        <a class=\"mb-quality-row\" href=\"%var(D1)%\"><span><b>DOWNLOAD 1080P [FULL HD]</b><small>High bitrate original audio</small></span><strong>DOWNLOAD ›</strong></a>\n        <a class=\"mb-quality-row\" href=\"%var(D2)%\"><span><b>DOWNLOAD 720P [HD]</b><small>Standard mobile / PC stream</small></span><strong>DOWNLOAD ›</strong></a>\n        <a class=\"mb-quality-row\" href=\"%var(D3)%\"><span><b>DOWNLOAD 480P [SD]</b><small>Compact mobile friendly</small></span><strong>DOWNLOAD ›</strong></a>\n      </div>\n      <div class=\"mb-terabox-note\"># --=== Create New Terabox Account to Get Links ===--</div>\n    </div>\n\n    <div class=\"mb-section mb-poster-section\">\n      <div class=\"mb-section-title\"><span>MOVIE POSTER</span></div>\n      <div class=\"mb-media-card\"><img src=\"%thumb%\" alt=\"%name% Poster\" loading=\"lazy\"></div>\n    </div>\n\n    <div class=\"mb-section mb-screenshot-section\">\n      <div class=\"mb-section-title\"><span>MOVIE SCREENSHOT</span></div>\n      <div class=\"mb-media-card mb-screenshot-card\"><img src=\"%var(ss)%\" alt=\"%name% Screenshot\" loading=\"lazy\" onerror=\"this.parentElement.parentElement.style.display='none'\"></div>\n    </div>\n\n    <div class=\"mb-section\">\n      <div class=\"mb-section-title\"><span>MOVIE DESCRIPTION</span></div>\n      <div class=\"mb-description\">\n        %var(pp)%\n      </div>\n    </div>\n\n    <div class=\"mb-download-help\">\n      <div><b>Download help</b><br><span>Select a quality option above to continue with your download.</span></div>\n      <div class=\"mb-download-actions\">\n        <a href=\"#telegram-channel\">JOIN TELEGRAM</a>\n        <a href=\"/\">HOME / DASHBOARD</a>\n        <a href=\"/category/%dirname%?id=%dir%&id2=new\">BACK TO MOVIES</a>\n      </div>\n    </div>\n  </article>\n</div>\n<script>\n(function(){\n  var links = document.querySelectorAll('.mb-quality-row');\n  links.forEach(function(el){\n    var href = el.getAttribute('href');\n    if(!href || href.indexOf('%var(') !== -1 || href.trim() === '' || href === '#'){\n      el.style.display = 'none';\n    }\n  });\n})();\n</script>",
+                    "type": 24,
+                    "user": 0,
+                    "typeText": "File Lister",
+                    "userText": "All user",
+                    "config": "<id>{{GET(id)}}</id>\r\n<limit>1</limit>"
+                }
+            ]
+        },
+        "about-us-html": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | ABOUT US</title><div class=\"mb-wrap mb-legal-page\"><div class=\"mb-breadcrumb\"><a href=\"/\">HOME</a><span>›</span><b>ABOUT US</b></div><article class=\"mb-legal-card\"><div class=\"mb-section-title\"><span>ABOUT US</span></div><p>NEWHINDIMOVIES is a movie catalogue and file-indexing website interface built on Wapka. The site is designed to provide a simple way to browse categories and access files made available through its underlying file system.</p><h2>Our Purpose</h2><p>We focus on a clean, mobile-friendly browsing experience with organized categories, searchable content and direct file access where available.</p><h2>Content &amp; Rights</h2><p>NEWHINDIMOVIES does not claim ownership of third-party copyrighted material unless specifically stated. If you believe content infringes your rights, please use our contact or DMCA process.</p></article></div>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        },
+        "contact-us-html": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | CONTACT US</title><div class=\"mb-wrap mb-legal-page\"><div class=\"mb-breadcrumb\"><a href=\"/\">HOME</a><span>›</span><b>CONTACT US</b></div><article class=\"mb-legal-card\"><div class=\"mb-section-title\"><span>CONTACT US</span></div><p>For website-related questions, broken pages, copyright concerns or content-removal requests, please contact the NEWHINDIMOVIES administrator through the official contact method provided on the website.</p><h2>Copyright / Removal Request</h2><p>Include the exact movie/file title, page address, reason for the request and enough information to verify your claim.</p><h2>Broken Download</h2><p>For a broken download, provide the movie/file title and the page from which you accessed it.</p><h2>Movie Request</h2><p>To request a movie or web series, use the dedicated <a href=\"/movie-request-html\" style=\"color:var(--c-blue);font-weight:700;\">Movie Request Page</a>.</p><p style=\"margin-top:14px;\"><a class=\"mb-download-cta\" href=\"/\">BACK TO HOME</a></p></article></div>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        },
+        "privacy-policy-html": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | PRIVACY POLICY</title><div class=\"mb-wrap mb-legal-page\"><div class=\"mb-breadcrumb\"><a href=\"/\">HOME</a><span>›</span><b>PRIVACY POLICY</b></div><article class=\"mb-legal-card\"><div class=\"mb-section-title\"><span>PRIVACY POLICY</span></div><p>This Privacy Policy explains how NEWHINDIMOVIES handles basic technical information when you browse our catalogue.</p><h2>Information We Collect</h2><p>Standard technical information such as browser agent, approximate network parameters, IP address and server access logs may be logged for security and load balancing purposes.</p><h2>Cookies &amp; Local Storage</h2><p>The platform may utilize minimal session cookies to store interface preferences.</p><h2>External Links</h2><p>External websites and storage endpoints maintain independent privacy policies.</p></article></div>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        },
+        "terms-and-conditions-html": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | TERMS &amp; CONDITIONS</title><div class=\"mb-wrap mb-legal-page\"><div class=\"mb-breadcrumb\"><a href=\"/\">HOME</a><span>›</span><b>TERMS &amp; CONDITIONS</b></div><article class=\"mb-legal-card\"><div class=\"mb-section-title\"><span>TERMS &amp; CONDITIONS</span></div><p><b>Last Updated:</b> 10 November 2026</p><h2>1. Acceptance of Terms</h2><p>By accessing NEWHINDIMOVIES, you agree to comply with and be bound by these Terms &amp; Conditions.</p><h2>2. Platform Usage</h2><p>NEWHINDIMOVIES is an online catalogue interface. We do not claim ownership of third-party media.</p><h2>3. Copyright</h2><p>Content owners may request removal of indexed references by submitting verified proof through our Contact portal.</p></article></div>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        },
+        "how-to-download-html": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | How To Download</title><div class=\"mb-wrap mb-legal-page\"><div class=\"mb-breadcrumb\"><a href=\"/\">HOME</a> › <b>HOW TO DOWNLOAD</b></div><article class=\"mb-legal-card\"><div class=\"mb-section-title\"><span>HOW TO DOWNLOAD</span></div><h2>Quick Steps to Download:</h2><p>1. Open the movie or web series page from the catalogue.</p><p>2. Select your preferred resolution (1080p Full HD, 720p HD, or 480p SD).</p><p>3. Tap the blue <b>DOWNLOAD</b> button.</p><p>4. Your file link will open in your browser or storage client.</p><p class=\"mb-terabox-note\">Recommended: Use Google Chrome on Android with high-speed internet.</p></article></div>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        },
+        "movie-request-html": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | Movie Request</title><div class=\"mb-wrap mb-legal-page\"><div class=\"mb-breadcrumb\"><a href=\"/\">HOME</a> › <b>MOVIE REQUEST</b></div><article class=\"mb-legal-card\"><div class=\"mb-section-title\"><span>MOVIE REQUEST</span></div><h2>Request A Movie or Web Series</h2><p>Can't find a specific movie or series on NEWHINDIMOVIES?</p><p>Please send us the title, release year, language, and quality requirement via our contact page.</p><p style=\"margin-top:14px;\"><a class=\"mb-download-cta\" href=\"/contact-us-html\">GO TO CONTACT FORM</a></p></article></div>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        },
+        "disclaimer-html": {
+            "type": 0,
+            "typeText": "text/html",
+            "user": 0,
+            "userText": "All user",
+            "header": "header",
+            "footer": "footer",
+            "codes": [
+                {
+                    "content": "<title>NEWHINDIMOVIES | DISCLAIMER</title><div class=\"mb-wrap mb-legal-page\"><div class=\"mb-breadcrumb\"><a href=\"/\">HOME</a><span>›</span><b>DISCLAIMER</b></div><article class=\"mb-legal-card\"><div class=\"mb-section-title\"><span>DISCLAIMER</span></div><p>All information and file references published on NEWHINDIMOVIES are provided for indexing and catalogue purposes only.</p><h2>Non-Hosting Notice</h2><p>NEWHINDIMOVIES does not store or upload copyright-protected video files directly on its servers. All listings point to external storage services.</p><h2>Copyright Removal</h2><p>If you are a copyright holder and wish to request removal of indexed listings, please contact our team for prompt assistance.</p></article></div>",
+                    "type": 1,
+                    "user": 0,
+                    "typeText": "TAG Code",
+                    "userText": "All user"
+                }
+            ]
+        }
+    }
+}
