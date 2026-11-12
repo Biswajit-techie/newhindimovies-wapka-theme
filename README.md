@@ -169,6 +169,25 @@ NEWHINDIMOVIES-WAPKA/
 
 ---
 
+
+---
+
+## 🌐 Demo Website
+
+<div align="center">
+
+### NEWHINDIMOVIES — Theme Preview
+
+<img src="https://i.postimg.cc/HTn7X7qc/Screenshot-20261112-124713.jpg" alt="NEWHINDIMOVIES Wapka Theme Demo" width="900">
+
+<br><br>
+
+**Mobile-first Wapka movie catalogue interface preview**
+
+</div>
+
+---
+
 ## 🚀 Installation
 
 ### 1. Download the project
